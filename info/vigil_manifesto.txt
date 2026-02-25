@@ -1,0 +1,28 @@
+The V.I.G.I.L. System Manifest(v0.1)
+
+====================================
+
+
+This manifest outlines the core services that must be active for the Virtual Intelligent and Global Information Link to function as a scientist/engineer-grade workstation.
+
+1. The Core (Level 0 - Rust Kernel)
+
+    * A.S.M.(Address Space Manager): Manages RAM and ensures Python scripts don't "bleed" into the C drivers.
+
+    * I.P.C. Messenger: The high-speed transit system that allows the Global Link to talk to the storage unit.
+
+
+2. The Link Layer (Level 1 - Rust Services)
+
+    * G-LINK: The raw TCP/IP stack. It talks to the Ethernet/Wi-fi hardware.
+
+    * FS-VAULT: The filesystem service. Designed for high-speed scientific data logging.
+
+    * V-DRIVER: The video output. Probably will be optimized for vector graphics and not 3D game frames.
+
+
+3. The Logic Layer (Level 2 - High-Level Environment)
+
+    * P-ENGINE: Embedded Python Interpreter that has been "vigil-ized". 
+
+    * VI-SHELL: Terminal interface. (to be defined)
