@@ -1,0 +1,5 @@
+1. The capacity to create virtual nodes. These virtual nodes serve as a virtual
+environment inside the OS, created by the user, that is automatically quarantined from
+the rest of the system. The user can then perform any action necessary without the risk
+of bleeding into other parts of the system. By the end of it, the user can kill this node
+and the memory space is wiped clean. 
