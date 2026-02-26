@@ -1,18 +1,17 @@
 The V.I.G.I.L. System Manifest(v0.1)
-
 ====================================
 
 
 This manifest outlines the core services that must be active for the Virtual Intelligent and Global Information Link to function as a scientist/engineer-grade workstation.
 
-1. The Core (Level 0 - Rust Kernel)
+1. The Core (Level 0 - C Kernel)
 
     * A.S.M.(Address Space Manager): Manages RAM and ensures Python scripts don't "bleed" into the C drivers.
 
     * I.P.C. Messenger: The high-speed transit system that allows the Global Link to talk to the storage unit.
 
 
-2. The Link Layer (Level 1 - Rust Services)
+2. The Link Layer (Level 1 - C Services)
 
     * G-LINK: The raw TCP/IP stack. It talks to the Ethernet/Wi-fi hardware.
 
